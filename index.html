@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kriuk Kress - Jagonya Keripik & Basreng</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Kriuk Kress ✨</a>
+            <ul>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Renyahnya Bikin Nagih!</h1>
+                <p>Rasakan sensasi pedas gurih dari keripik singkong dan basreng pilihan kami. Dibuat dari bahan berkualitas, dijamin bikin harimu makin seru!</p>
+                <a href="#produk" class="cta-button">Lihat Produk Kami</a>
+            </div>
+        </section>
+
+        <section id="produk" class="products">
+            <h2>🔥 Produk Terlaris Kami 🔥</h2>
+            <div class="products-container">
+                <div class="product-card">
+                    <img src="images/keripik.jpg" alt="Keripik Singkong Pedas">
+                    <h3>Keripik Singkong Pedas Daun Jeruk</h3>
+                    <p class="description">Singkong pilihan dengan bumbu pedas rahasia dan aroma daun jeruk yang menggugah selera.</p>
+                    <p class="price">Rp 15.000</p>
+                    <button class="buy-button" onclick="buyOnWhatsApp('Keripik Singkong Pedas Daun Jeruk', 'Rp 15.000')">
+                        Beli via WhatsApp
+                    </button>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/basreng.jpg" alt="Basreng Pedas">
+                    <h3>Basreng Sultan Renyah & Gurih</h3>
+                    <p class="description">Bakso ikan goreng kering dengan taburan bumbu pedas spesial yang melimpah. Awas ketagihan!</p>
+                    <p class="price">Rp 18.000</p>
+                    <button class="buy-button" onclick="buyOnWhatsApp('Basreng Sultan Renyah & Gurih', 'Rp 18.000')">
+                        Beli via WhatsApp
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang" class="about">
+             <h2>Kenapa Harus Pilih Kriuk Kress?</h2>
+             <div class="features">
+                <div class="feature-item">
+                    <h4>🌶️ Rasa Otentik</h4>
+                    <p>Bumbu racikan sendiri yang membuat rasa produk kami unik dan tak terlupakan.</p>
+                </div>
+                 <div class="feature-item">
+                    <h4>💯 Kualitas Terjamin</h4>
+                    <p>Hanya menggunakan bahan baku segar dan berkualitas tinggi tanpa bahan pengawet.</p>
+                </div>
+                 <div class="feature-item">
+                    <h4>📦 Pesan Mudah</h4>
+                    <p>Klik tombol beli, dan kamu akan langsung terhubung dengan kami via WhatsApp.</p>
+                </div>
+             </div>
+        </section>
+
+    </main>
+
+    <footer id="kontak">
+        <p>&copy; 2025 Kriuk Kress. Semua Hak Cipta Dilindungi.</p>
+        <p>Pesan sekarang dan rasakan kriuknya!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
