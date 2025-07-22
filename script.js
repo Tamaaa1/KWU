@@ -1,7 +1,7 @@
 // --- KONFIGURASI PENTING ---
 // Ganti nomor di bawah ini dengan nomor WhatsApp Anda.
 // Gunakan format 62, jangan pakai 0 di depan. Contoh: 6281234567890
-const phoneNumber = '6285822475865';
+const phoneNumber = '6281347834164';
 
 
 // --- FUNGSI UNTUK TOMBOL BELI ---
